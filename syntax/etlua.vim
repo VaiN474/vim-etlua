@@ -14,13 +14,6 @@ runtime! syntax/html.vim
 unlet b:current_syntax
 syntax include @HTML syntax/html.vim
 
-"unlet b:current_syntax
-"syntax include @Lua syntax/lua.vim
-"syntax region luaCode matchgroup=Snip start=+<%+ end=+%>+ containedin=@HTML contains=@Lua
-
-"hi link Snip SpecialComment
-"let b:current_syntax = 'etlua'
-
 if exists('b:current_syntax')
   let s:current_syntax=b:current_syntax
   unlet b:current_syntax
