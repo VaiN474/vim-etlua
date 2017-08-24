@@ -1,7 +1,7 @@
 " Language:     etlua
-" Maintainer:   VaiN <vain474@gmail.com>
-" License:      WTFPL
-" Last Change:  April 21 2015
+" Maintainer:   VaiN474 (https://github.com/VaiN474)
+" License:      MIT
+" Last Change:  Aug 24 2017
 
 if !exists("main_syntax")
   let main_syntax = 'html'
