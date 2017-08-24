@@ -1,0 +1,11 @@
+<div class="foo">
+  <% if true then %>
+    <p>bar</p>
+  <% end %>
+</div>
+<p>foo<%= return 1+1==2 %></p>
+<%- "<b>this is not escaped</b>" %>
+<% local myvar = "foo" %>
+<%= myvar .. " <- escaped" %>
+<% --[[ comment block ]] %>
+
